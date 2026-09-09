@@ -143,7 +143,9 @@ GET /api/vehicles/?brand=Toyota&fuel_type=Petrol&is_available=true
 - `customer_phone` must be exactly 10 digits.
 
 ## Demo Video
-[Add YouTube/Drive link here]
+https://youtu.be/Tko8ygzbUn0
 
 ## Live Deployment
-[Add hosted API base URL here]
+https://vehicle-inventory-0wgr.onrender.com
+
+Note : *Base URL has no frontend — test endpoints directly, e.g. https://vehicle-inventory-0wgr.onrender.com/api/vehicles/*
