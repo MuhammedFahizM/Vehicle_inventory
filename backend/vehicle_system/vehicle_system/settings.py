@@ -84,15 +84,7 @@ WSGI_APPLICATION = 'vehicle_system.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-    }
-}
+
 
 DATABASE_URL = config('DATABASE_URL', default=None)
 
